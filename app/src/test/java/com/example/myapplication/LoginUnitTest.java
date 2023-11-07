@@ -50,7 +50,7 @@ public class LoginUnitTest {
         LoginActivity myObjectUnderTest = new LoginActivity(mMockContext);
 
         //Checking for invalid username.
-        String result = myObjectUnderTest.validate_email("!!!!@g1$.com");
+        String result = myObjectUnderTest.validate_email("mkari084@uottawa.com");
 
         //Both should not be equal, hence error when testing.
         assertThat(result, is(FAKE_USERNAME_STRING));
